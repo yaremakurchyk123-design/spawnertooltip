@@ -33,4 +33,3 @@ jobs:
         with:
           name: spawnertooltip-1.20.1-jar
           path: spawnertooltip-1.20.1/build/libs/*.jar
-        
