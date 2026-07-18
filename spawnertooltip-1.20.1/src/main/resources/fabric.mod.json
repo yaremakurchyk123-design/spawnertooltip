@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnertooltip",
+  "version": "${version}",
+  "name": "Spawner Tooltip HolyWorld",
+  "description": "Показывает подробную информацию о кастомном спавнере (меч, чары, убийства, яйца).",
+  "authors": [
+    "Maxim14790"
+  ],
+  "contact": {},
+  "environment": "client",
+  "icon": "ico.png",
+  "entrypoints": {
+    "client": [
+      "com.example.spawnertooltip.SpawnerTooltipClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
